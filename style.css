@@ -1,0 +1,267 @@
+body {
+    font-family: sans-serif;
+}
+
+html {
+    zoom: 100%;
+}
+body {
+    margin: 0;
+    width: 100%;
+    }
+header {
+    height: 100px;
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    background-color: #D14114;
+    align-items: center;
+    justify-content: center;
+}
+nav {  
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.nav-link{
+    color: #000;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    font-weight: 700;
+    color: #1b0447;
+    text-shadow: 1px 1px   white;
+    transition: 0.5s ease-in;
+}
+
+
+main{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;
+    align-items: center;
+    justify-content: space-between;
+} 
+.info-img{
+    width: 35vw;
+} 
+.info-div{
+    width: 40%;
+} 
+.info h1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.info-div p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.info-butt{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.call-butt{
+    text-decoration: none;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+    color: black;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 120px;
+    text-align: center;
+    background-color:  #F00;
+}
+.call-butt:hover{
+    background: #000000;
+    color: #F00;
+    border: 1px solid #F00;
+    transition: 0.6s ease-out;
+}
+.menu-butt{
+    width: 120px;
+     background: #000000;
+    text-align: center;
+    text-decoration: none;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+    color: #F00;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+     
+}
+.menu-butt:hover{
+    background: #F00;
+    color: black;
+    transition: 0.6s ease-out;
+}
+
+
+.menu h2{
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.menu{
+    width: 100%;
+}
+.menu-div{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.menu-img{
+    width: 30%;  
+}
+.menu-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu-info h3{
+   color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu-text{
+    width: 80%;
+    color: #000;
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sallary{
+    color: #000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sale{
+     margin-top: 180px;
+}
+.sale-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sale img{
+    width: 190px;
+}
+
+
+
+.sale h2{
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+
+.about{
+    margin-top: 195px;  
+}
+
+.about-div{
+    background-image: url(folder/9.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 565px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about h2{ 
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.about p{ 
+    width: 80%;
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 4px 4px #0B0A0A;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    -webkit-text-stroke: 1px white;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 190px;
+    padding: 50px;
+    justify-content: space-around;
+    background-image: linear-gradient(45deg, rgb(163, 12, 6) 0%, rgb(163, 12, 6) 22%,rgb(182, 55, 32) 22%, rgb(182, 55, 32) 29%,rgb(200, 97, 58) 29%, rgb(200, 97, 58) 39%,rgb(219, 140, 83) 39%, rgb(219, 140, 83) 45%,rgb(237, 182, 109) 45%, rgb(237, 182, 109) 100%);
+}
+
+footer h3{
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
